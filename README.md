@@ -1,5 +1,15 @@
 # XEBAC Auth Hardening Auditor
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+  <rect width="900" height="260" fill="#0b0f14"/>
+  <text x="450" y="90" text-anchor="middle" fill="#e6edf3"
+        font-family="monospace" font-size="46" font-weight="bold">XEBAC · AUTH HARDENING</text>
+  <text x="450" y="140" text-anchor="middle" fill="#7ee787"
+        font-family="monospace" font-size="20">defensive login audit · allowlist-gated</text>
+  <text x="450" y="190" text-anchor="middle" fill="#8b949e"
+        font-family="monospace" font-size="16">CSRF · cookies · headers · TLS · rate-limit</text>
+  <text x="450" y="230" text-anchor="middle" fill="#f0883e"
+        font-family="monospace" font-size="13">authorized targets only</text>
+</svg>
 > **Status: Defensive release.** Audits *your own* login endpoints for missing
 > protections. Read-only probing, allowlist-gated, no credential attempts.
 
